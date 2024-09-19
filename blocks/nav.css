@@ -2,17 +2,31 @@
 
 }
 .nav__list {
+
     display: flex;
     margin: 0;
-    font-size: 25px;
-    transform: translate(10px, 55px);
+    font-size: 31px;
+    transform: translate(10px, 5px);
     justify-content: space-around;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ee84ff91;
+    color: #176ab8c4;
+    list-style: none;
 }
+
+.nav__list-item{
+
+}
+nav__link{
+    position: relative;
+    transform: translate(20px 40px);
+}
+
 @media  screen and (max-width: 504px) {
     .nav__list{
-        font-size: 15px;
-        transform: translate(10px, 20px);
+        font-size: 20px;
+        transform: translate(10px, 1px);
     }
     
 }

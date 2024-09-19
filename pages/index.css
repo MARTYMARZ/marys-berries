@@ -3,3 +3,9 @@
 @import url(../blocks/header.css);
 @import url(../fonts.css);
 @import url(../blocks/nav.css);
+@import url(../blocks/card.css);
+@import url(../blocks/cards.css);
+
+.body{
+    margin: 0;
+}

@@ -1,3 +1,11 @@
 .content{
-    max-width: 1280px;
+    display: flex;
+    font-family: "Dancing Script";
+    flex-direction: column;
+    width: 100%;
+}
+.food-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    margin: 0 auto;
 }

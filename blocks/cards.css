@@ -1,0 +1,11 @@
+.cards{
+    max-width: 200px;
+}
+.cards__header{
+    font-size: 100px;
+    color: #7146b4cc;
+    font-size: 50px;
+    margin-top: 100px;
+    width: 669px;
+    font-family: 'Dancing Script';
+}
