@@ -1,0 +1,18 @@
+.nav {
+
+}
+.nav__list {
+    display: flex;
+    margin: 0;
+    font-size: 25px;
+    transform: translate(10px, 55px);
+    justify-content: space-around;
+    padding: 0;
+}
+@media  screen and (max-width: 504px) {
+    .nav__list{
+        font-size: 15px;
+        transform: translate(10px, 20px);
+    }
+    
+}

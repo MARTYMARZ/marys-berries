@@ -1,0 +1,43 @@
+.header {
+  background-color: rgba(131, 58, 200, 0.584);
+  height: 30%;
+  width: 100vw;
+  display: flex;
+  font-family: "Dancing Script";
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header__title {
+  font-weight: 800;
+  text-align: center;
+  margin: auto 0 auto;
+  font-size: 100px;
+  color: rgba(11, 17, 104, 0.573);
+  padding-top: 20px;
+}
+
+.header__column {
+  background-color: rgba(3, 9, 32, 0.323);
+}
+.header__description {
+  align-self: center;
+  max-width: 500px;
+  margin: 0;
+  margin: auto;
+  padding: 15px 0 0px;
+  font-weight: 400;
+  font-size: 22px;
+  transform: translate(10px, 20px);
+
+}
+ @media screen and (max-width: 504px) {
+    .header__title{
+        font-size: 60px;
+    }
+    .header__description{
+        font-size: 20px;
+        padding: 0 0 20px;
+    }
+ }
