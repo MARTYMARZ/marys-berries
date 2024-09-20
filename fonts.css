@@ -18,3 +18,8 @@
     font-weight: 600;
     src: url(./vendor/fonts/DancingScript-Bold.ttf);
  }
+ @font-face {
+   font-family:"Sofadione";
+   src: url(./vendor/fonts/SofadiOne-Regular.ttf);
+   font-weight: 600;
+ }
