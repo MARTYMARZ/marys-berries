@@ -3,14 +3,14 @@
 @import url(../blocks/header.css);
 @import url(../fonts.css);
 @import url(../blocks/nav.css);
-@import url(../blocks/card.css);
 @import url(../blocks/cards.css);
+@import url(../blocks/pages.css);
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
